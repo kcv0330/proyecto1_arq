@@ -2,50 +2,43 @@
   {
     "name": "directores_index",
     "path": "/directores_index",
-    "component": "C:\\\\Users\\\\ExtremeTech\\\\Desktop\\\\Proyecto1\\\\proyecto1\\\\pages\\\\directores_index.vue",
-    "chunkName": "pages/directores_index",
-    "_name": "_31b729f4"
+    "component": "C:\\\\Users\\\\ExtremeTech\\\\pro_1\\\\proyecto1_arq\\\\pages\\\\directores_index.vue",
+    "chunkName": "pages/directores_index"
   },
   {
     "name": "estudios_index",
     "path": "/estudios_index",
-    "component": "C:\\\\Users\\\\ExtremeTech\\\\Desktop\\\\Proyecto1\\\\proyecto1\\\\pages\\\\estudios_index.vue",
-    "chunkName": "pages/estudios_index",
-    "_name": "_ae1d075c"
+    "component": "C:\\\\Users\\\\ExtremeTech\\\\pro_1\\\\proyecto1_arq\\\\pages\\\\estudios_index.vue",
+    "chunkName": "pages/estudios_index"
   },
   {
     "name": "peliculas_index",
     "path": "/peliculas_index",
-    "component": "C:\\\\Users\\\\ExtremeTech\\\\Desktop\\\\Proyecto1\\\\proyecto1\\\\pages\\\\peliculas_index.vue",
-    "chunkName": "pages/peliculas_index",
-    "_name": "_4908cb36"
+    "component": "C:\\\\Users\\\\ExtremeTech\\\\pro_1\\\\proyecto1_arq\\\\pages\\\\peliculas_index.vue",
+    "chunkName": "pages/peliculas_index"
   },
   {
     "name": "directores-slug",
     "path": "/directores/:slug?",
-    "component": "C:\\\\Users\\\\ExtremeTech\\\\Desktop\\\\Proyecto1\\\\proyecto1\\\\pages\\\\directores\\\\_slug.vue",
-    "chunkName": "pages/directores/_slug",
-    "_name": "_95b80c8e"
+    "component": "C:\\\\Users\\\\ExtremeTech\\\\pro_1\\\\proyecto1_arq\\\\pages\\\\directores\\\\_slug.vue",
+    "chunkName": "pages/directores/_slug"
   },
   {
     "name": "estudios-slug",
     "path": "/estudios/:slug?",
-    "component": "C:\\\\Users\\\\ExtremeTech\\\\Desktop\\\\Proyecto1\\\\proyecto1\\\\pages\\\\estudios\\\\_slug.vue",
-    "chunkName": "pages/estudios/_slug",
-    "_name": "_2533f31b"
+    "component": "C:\\\\Users\\\\ExtremeTech\\\\pro_1\\\\proyecto1_arq\\\\pages\\\\estudios\\\\_slug.vue",
+    "chunkName": "pages/estudios/_slug"
   },
   {
     "name": "peliculas-slug",
     "path": "/peliculas/:slug?",
-    "component": "C:\\\\Users\\\\ExtremeTech\\\\Desktop\\\\Proyecto1\\\\proyecto1\\\\pages\\\\peliculas\\\\_slug.vue",
-    "chunkName": "pages/peliculas/_slug",
-    "_name": "_eff2fe92"
+    "component": "C:\\\\Users\\\\ExtremeTech\\\\pro_1\\\\proyecto1_arq\\\\pages\\\\peliculas\\\\_slug.vue",
+    "chunkName": "pages/peliculas/_slug"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\ExtremeTech\\\\Desktop\\\\Proyecto1\\\\proyecto1\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_0cf51d7b"
+    "component": "C:\\\\Users\\\\ExtremeTech\\\\pro_1\\\\proyecto1_arq\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]

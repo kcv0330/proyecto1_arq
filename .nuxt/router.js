@@ -4,13 +4,13 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _31b729f4 = () => interopDefault(import('..\\pages\\directores_index.vue' /* webpackChunkName: "pages/directores_index" */))
-const _ae1d075c = () => interopDefault(import('..\\pages\\estudios_index.vue' /* webpackChunkName: "pages/estudios_index" */))
-const _4908cb36 = () => interopDefault(import('..\\pages\\peliculas_index.vue' /* webpackChunkName: "pages/peliculas_index" */))
-const _95b80c8e = () => interopDefault(import('..\\pages\\directores\\_slug.vue' /* webpackChunkName: "pages/directores/_slug" */))
-const _2533f31b = () => interopDefault(import('..\\pages\\estudios\\_slug.vue' /* webpackChunkName: "pages/estudios/_slug" */))
-const _eff2fe92 = () => interopDefault(import('..\\pages\\peliculas\\_slug.vue' /* webpackChunkName: "pages/peliculas/_slug" */))
-const _0cf51d7b = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _355918b4 = () => interopDefault(import('..\\pages\\directores_index.vue' /* webpackChunkName: "pages/directores_index" */))
+const _b47fc9dc = () => interopDefault(import('..\\pages\\estudios_index.vue' /* webpackChunkName: "pages/estudios_index" */))
+const _33e3f714 = () => interopDefault(import('..\\pages\\peliculas_index.vue' /* webpackChunkName: "pages/peliculas_index" */))
+const _25bfe2f9 = () => interopDefault(import('..\\pages\\directores\\_slug.vue' /* webpackChunkName: "pages/directores/_slug" */))
+const _7b8da74a = () => interopDefault(import('..\\pages\\estudios\\_slug.vue' /* webpackChunkName: "pages/estudios/_slug" */))
+const _e8af2112 = () => interopDefault(import('..\\pages\\peliculas\\_slug.vue' /* webpackChunkName: "pages/peliculas/_slug" */))
+const _6334e6bb = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -25,31 +25,31 @@ export const routerOptions = {
 
   routes: [{
     path: "/directores_index",
-    component: _31b729f4,
+    component: _355918b4,
     name: "directores_index"
   }, {
     path: "/estudios_index",
-    component: _ae1d075c,
+    component: _b47fc9dc,
     name: "estudios_index"
   }, {
     path: "/peliculas_index",
-    component: _4908cb36,
+    component: _33e3f714,
     name: "peliculas_index"
   }, {
     path: "/directores/:slug?",
-    component: _95b80c8e,
+    component: _25bfe2f9,
     name: "directores-slug"
   }, {
     path: "/estudios/:slug?",
-    component: _2533f31b,
+    component: _7b8da74a,
     name: "estudios-slug"
   }, {
     path: "/peliculas/:slug?",
-    component: _eff2fe92,
+    component: _e8af2112,
     name: "peliculas-slug"
   }, {
     path: "/",
-    component: _0cf51d7b,
+    component: _6334e6bb,
     name: "index"
   }],
 
