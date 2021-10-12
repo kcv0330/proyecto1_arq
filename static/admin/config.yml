@@ -1,0 +1,56 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+publish_mode: editorial_workflow
+media_folder: static/images
+public_folder: images
+collections:
+  - name: "peliculas"
+    label: "Películas"
+    folder: "content/peliculas"
+    create: true
+    fields:
+      - {label: "Id", name: "id", widget: "hidden", default: "pelicula_{{hour}}{{minute}}{{second}}"}
+      - {label: "Título", name: "title", widget: "string"}
+      - {label: "Año", name: "year", widget: "number"}
+      - {label: "Género", name: "gender", widget: "string"}
+      - {label: "Duración", name: "duration", widget: "string"}
+      - {label: "Director", name: "directorId", widget: "relation",
+          collection: "directores", search_fields: ["name"], value_field: "id",
+          display_fields: ["name"]}
+      - {label: "Estudio", name: "estudioId", widget: "relation",
+          collection: "estudios", search_fields: ["name"], value_field: "id",
+          display_fields: ["name"]}
+      - {label: "Image", name: "image", widget: "image",
+           media_folder: '/static/images/peliculas'}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "estudios"
+    label: "Estudios"
+    folder: "content/estudios"
+    create: true
+    fields:
+      - {label: "Id", name: "id", widget: "hidden", default: "estudio_{{hour}}{{minute}}{{second}}"}
+      - {label: "Nombre", name: "name", widget: "string"}
+      - {label: "País", name: "pais", widget: "string"}
+      - {label: "Historia", name: "history", widget: "string"}
+      - {label: "Película", name: "peliculaId", widget: "relation",
+          collection: "peliculas", search_fields: ["name"], value_field: "id",
+          display_fields: ["name"]}
+      - {label: "Image", name: "image", widget: "image",
+           media_folder: '/static/images/estudios'}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "directores"
+    label: "Directores"
+    folder: "content/directores"
+    create: true
+    fields:
+      - {label: "Id", name: "id", widget: "hidden", default: "director_{{hour}}{{minute}}{{second}}"}
+      - {label: "Nombre", name: "name", widget: "string"}
+      - {label: "Nacionalidad", name: "nationality", widget: "string"}
+      - {label: "Nacimiento", name: "birth_year", widget: "number"}
+      - {label: "Película", name: "peliculaId", widget: "relation",
+          collection: "peliculas", search_fields: ["name"], value_field: "id",
+          display_fields: ["name"]}
+      - {label: "Image", name: "image", widget: "image",
+           media_folder: '/static/images/directores'}
+      - {label: "Body", name: "body", widget: "markdown"}
